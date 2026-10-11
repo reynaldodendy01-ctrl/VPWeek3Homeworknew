@@ -57,7 +57,7 @@ fun SoalBonus2View() {
     val scope = rememberCoroutineScope()
     val interactionSource = remember {MutableInteractionSource()}
 
-    var wisata by rememberSaveable {mutableStateOf("Fjellheisen Cable Car")}
+    var wisata by rememberSaveable {mutableStateOf("Fjellllheisen Cable Car")}
     var nikmati by rememberSaveable {mutableStateOf("Pemandangan langit malam hijau aurora spektakuler dari puncak gunung...")}
     var notes by rememberSaveable {mutableStateOf("")}
     var rating by rememberSaveable {mutableStateOf("Luar Biasa ★")}
